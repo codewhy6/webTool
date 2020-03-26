@@ -63,9 +63,9 @@ function ajax(options) {
     }
     // 当http状态码是200时，
     if (xhr.status == 200) {
-      defaults.success(responseText, xhr)
+      defaults.success(responseText, xhr);
     } else {
-      defaults.error(responseText, xhr)
+      defaults.error(responseText, xhr);
 
     }
   })
